@@ -17,5 +17,6 @@
         "message": "You can only call the error() and warn() functions from the console object"
       }
     ]
+    
   }
 }

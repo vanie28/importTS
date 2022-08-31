@@ -33,7 +33,9 @@
       {
         "assert": "either"
       }
-    ]
+    ],
+    "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".ts"] }],
+    "import/extensions": [ "error", "ignorePackages", { "js": "never", "jsx": "never", "ts": "never", "tsx": "never" } ]
   },
   "settings": {
     "import/resolver": {
@@ -44,7 +46,7 @@
           "@pages": "./src/pages",
           "@services": "./src/services"
         },
-        "extensions": [".js", ".jsx"]
+        "extensions": [".js", ".jsx",".ts",".tsx"]
       }
     }
   }
